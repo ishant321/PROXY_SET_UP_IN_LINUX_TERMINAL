@@ -13,19 +13,19 @@ Helllo guys.
 
 1. COPY THE FOLLOWINGS
      * Without username and password
-          * Acquire::http::Proxy "http://proxy.server:port";
+          * Acquire::http::Proxy "http://proxy.server:port";<br/>
             Acquire::https::Proxy "http://proxy.server:port";
 
             Eg:
-            Acquire::http::Proxy "http://127.0.0.1:3128";
+            Acquire::http::Proxy "http://127.0.0.1:3128";</br>
             Acquire::https::Proxy "http://127.0.0.1:3128";
 
      * With username and password
-          * Acquire::http::Proxy "http://username:username@proxy.server:port";
+          * Acquire::http::Proxy "http://username:username@proxy.server:port";<br/>
             Acquire::https::Proxy "http://username:username@proxy.server:port";
 
             Eg:
-            Acquire::http::Proxy "http://abcd:1234@127.0.0.1:3128";
+            Acquire::http::Proxy "http://abcd:1234@127.0.0.1:3128";<br/>
             Acquire::https::Proxy "http://abcd:1234@127.0.0.1:3128";
 
 2. Type the following command
