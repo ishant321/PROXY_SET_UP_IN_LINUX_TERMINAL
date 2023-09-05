@@ -12,7 +12,7 @@ Helllo guys.
 * So to set up the proxy follow these steps.
 
 1. COPY THE FOLLOWINGS
-     #Without username and password
+     * Without username and password
             Acquire::http::Proxy "http://proxy.server:port";
             Acquire::https::Proxy "http://proxy.server:port";
 
@@ -20,7 +20,7 @@ Helllo guys.
             Acquire::http::Proxy "http://127.0.0.1:3128";
             Acquire::https::Proxy "http://127.0.0.1:3128";
 
-     #With username and password
+     * With username and password
             Acquire::http::Proxy "http://username:username@proxy.server:port";
             Acquire::https::Proxy "http://username:username@proxy.server:port";
 
