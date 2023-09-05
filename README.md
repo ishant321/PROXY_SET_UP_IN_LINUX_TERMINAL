@@ -3,14 +3,13 @@ How to set up proxy in linux terminal
 
 
 Helllo guys.
-We have often faced that problem in our linux terminal that TLS handshake failed or connection timeout and your proxy ip and all even after setting up the proxy in the system.
-Ever wondered?? why this is happening??
-Let's discuss about this.
-Actually in terminal there are different tools through which we connect to the internet or do some stuffs using internet like installing, updating etc.
-The terminal doesn't obey the system proxy setting as tools used in terminal has it's own configuration files.
-For example: ~/.bashrc file for bash and for apt package manager, /etc/apt/apt.conf, /etc/apt/apt.conf.d.(We will set proxy for this)
-The configuration file is responsible for the behaviour of the apt(advanced package tool).
-So to set up the proxy follow these steps.
+>We have often faced that problem in our linux terminal that TLS handshake failed or connection timeout and your proxy ip and all even after setting up the proxy in the system.
+>Ever wondered?? why this is happening?? Let's discuss about this.
+>Actually in terminal there are different tools through which we connect to the internet or do some stuffs using internet like installing, updating etc.
+>The terminal doesn't obey the system proxy setting as tools used in terminal has it's own configuration files.
+>For example: ~/.bashrc file for bash and for apt package manager, /etc/apt/apt.conf, /etc/apt/apt.conf.d.(We will set proxy for this)
+>The configuration file is responsible for the behaviour of the apt(advanced package tool).
+>So to set up the proxy follow these steps.
 
 1. COPY THE FOLLOWINGS
      :Without username and password
